@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: whitesmoke;
+    background: url("https://cutewallpaper.org/21/sci-fi-lab-background/Best-50-Research-Laboratory-Wallpaper-on-HipWallpaper-.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* intro screen */
+.intro-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    min-height: 100vh;
+}
+
+.start-box {
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+}
+
+.title-text {
+    font-family: 'Chelsea Market', cursive;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.p-text {
+    padding: 40px;
+    text-align: center;
+}
+
+#start, #play-again {
+    padding: 15px 50px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+/* game screen */
+.game-box {
+    background-color: rgba(0,0,0,.7);
+    height: 120px; 
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time-place {
+    margin-left: 40px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.owl-stats {
+    margin-left: 40px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.action {
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.save {
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.start-game {
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.owl-name-input {
+    height: 27px;
+    font-size: 14px;
+}
+
+.warm-egg {
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: rgba(0,0,0,.7);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.time-travel {
+    padding: 5px 30px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-color: whitesmoke;
+}
+
+.page-stuff {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    min-height: 70vh;
+}
+
+.owl, .sleep-owl, .sad-owl {
+    width: 375px;
+}
+
+.egg, .hatch, .flower {
+    width: 220px;
+}
+
+.page-text {
+    background-color: rgba(0,0,0,.85);
+    padding: 50px;
+    max-width: 450px;
+    font-size: 18px;
+}
+
+.day-count {
+    font-size: 20px;
+}
+
+input {
+    padding-left: 5px;
+    width: 250px;
+}
